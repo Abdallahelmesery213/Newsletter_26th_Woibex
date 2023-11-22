@@ -33,11 +33,14 @@ ul{
 .section img{
     /* height: 600px; */
     width: 100%;
+    margin-top: -8%;
 }
 .header .img-fluid{
     width: 90%;
     margin: auto;
     display: block;
+    position: relative;
+    z-index: 10;
 }
 header img{
     margin-top: 20px;
@@ -246,7 +249,10 @@ header .header-bottom p{
     color: #ed1d24;
 }
 .section33 .arrows{
-    margin-top: 20%;
+    /* margin-top: 20%; */
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
 }
 .section33 h4{
     font-family: merriBoldFont;
@@ -406,8 +412,13 @@ footer a.btn-dark{
         display: none;
     }
     .section33 .arrows{
-        width: 90%;
-        margin: 20px auto;
+        width: 85%;
+        margin: auto;
+        display: contents;
+    }
+    .section33 h4 {
+        line-height: 38px;
+        margin: 15px 0;
     }
     .section33 .dirction{
         display: flex;
